@@ -1,0 +1,16 @@
+#{box-sizing: border-box;
+}
+header{
+background-color: rgb(178, 255, 255);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(162, 202, 223);
+}
+logo{
+  diplay: column;
+  justify-content:center;}
+  h2{
+  display: flex; justify-content: center;
+  }
