@@ -1,153 +1,253 @@
 #{box-sizing: border-box;
 }
-
-header{background-color: rgb(0, 50, 255);
-weight:50px
-display: block;
+header{
+background-color: rgba(0, 50, 255, 2);
+weight:70px
+display: flex;
 justify-content: center;
 align-items: left;
 margin-left: auto;
-margin-right: auto;
-text-align:inherit;
+text-align: justify;
 }
 
 body{
-  margin:20;
-  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif
+  margin:0%;
+  margin-left: 0%;
+  padding: 0%;
   background-color: rgb(162, 202, 223);
   color: rgb(255, 255, 255);
+  text-align: justify;
 }
 logo{
 height: 30px;
 width: 20%;
 }
-.h2:hover {filter: opacity(.5);}
-.h2{
-  text-align: center;
-display: inline-block;
-    text-decoration-style: solid;
-  font-style:oblique;
-    }
-.h4:hover {filter: opacity(.5);}
-.h4{
+h2:hover {filter: opacity(.1);}
+h2{
+font-family: 'Open Sans Condensed', sans-serif;
 text-align: center;
-display: inline-block;
-text-decoration-style: solid;
-font-style:oblique;}
-.h5:hover {filter: opacity(.5);}
-.h5{
-text-align: center;
-display: inline-block;
+display: flex;
+justify-content: center;
 text-decoration-style: solid;
 font-style:oblique;
-                }
-  .foto{
-  display: flex;
-  justify-content: center;
-  margin:inherit;
-  padding: inherit;
-  }
-  h5{
-    text-align: center;
-  }
-.tarjetas{
-display: flex;
-text-align: center;
-justify-content: space-around;
-margin-left: 0%
+color: rgb(255, 255, 255);
 }
-#galeria{
+
+h3{
+font-family: 'Open Sans Condensed', sans-serif;
+justify-content: center;
 text-align: center;
-justify-content: center; }
-.foto:hover.foto {-webkit-transform:scale(2);transform:scale(2);}
+text-decoration-style: solid;
+font-style:oblique;
+    }
+h4:hover {filter: opacity(.5);}
+h4{
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+display: inline-block;
+text-decoration-style: solid;
+}
+h5:hover {filter: opacity(.5);}
+h5{
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+display: inline-block;
+text-decoration-style: solid;
+font-size: 30px;
+justify-content:center;
+color: rgb(255, 255, 255);
+}
+.foto{
+display: flex;
+justify-content: center;
+margin:inherit;
+padding: inherit;
+}
+.tarjetas{
+font-family: 'Open Sans Condensed', sans-serif;
+margin-left: -25%;
+margin-right: 25%;
+display: flex;
+text-align:center;
+justify-content: space-between;
+}
+.foto:hover.foto {-webkit-transform:scale(1);transform:scale(2);}
 .foto{overflow:hidden;}
 .empatia{
+font-family: 'Open Sans Condensed', sans-serif;
 width: auto;;
 height: auto;
 justify-content:center;
 text-align: center;}
+.pablo{
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+display: flex;
+justify-content:flex-start;
+}
 h3{
+font-family: 'Open Sans Condensed', sans-serif;
 justify-content: center;
 text-align: center;
 color: rgb(255, 255, 255);
 }
-.nos conocemos{
-  justify-content: center;
+#nos conocemos{
+  font-family: 'Open Sans Condensed', sans-serif;
+  justify-content:space-around;
   text-align: center;
   color: rgb(255, 255, 255);
 }
+
 h4{
-  justify-content: center;
-  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+margin-left: 15%;
+  font-size: 30px;
+  justify-content: left;
+  text-align: left;
   color: rgb(255, 255, 255);
 }
-.li listado prestaciones{
+h5{
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  font-size: 30px;
+  justify-content:center;
+  text-align: center;
   color: rgb(255, 255, 255);
 }
 h6{
-  text-align:
-
-}
-.contenedor tarjetas{
-  display: inline-flex;
-
-}
-
-
-.fab {
-padding: 20px;
-font-size: 30px;
-width: 30px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
-border-radius: 50%;
-}
-
-.fab:hover {
-opacity: 0.7;
-}
-
-.fa-whatsapp {
-background: #45bbff;
-color: white;
-}
-
-
-
-
-
-
-
-
-.galeria{
-transition: transform 5s;
-}
-.galeria{
-display: inline-flex;
-transform: scale(1);
-background-position: left bottom;
-}
-#comollegar{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  justify-content: center;
   text-align: center;
-display: inline-block;
-    text-decoration-style: solid;
-  font-style:oblique;
+  color: rgb(255, 255, 255);
+}
+.parrafo{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.medico paciente{
+display: none;
+color: rgb(255, 255, 255);
+}
+.video{
+  display: flex;
+  justify-content: center;
+}
+.tituloprestaciones{
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+}
+.li listado prestaciones{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(255, 255, 255);}
+
+.prestaciones{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(255, 255, 255)
+}
+.tarjetas{
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+
+}
+.linkconsultorio{
+font-family: 'Open Sans Condensed', sans-serif;
+display: flex;
+justify-content:flex-end;
+}
+.imagen{
+width: 70vh;
+display: flex;
+}
+.experiencias{
+  font-family: 'Open Sans Condensed', sans-serif;
+color: rgb(0, 0, 255);
+}
+.paciente{
+    font-family: 'Open Sans Condensed', sans-serif;
+  display:flex;
+  background-color: rgb(255,255, 255);
+  font-style: italic;
+ color: rgb(0, 0, 0);
+  margin-right: 50%;
+  padding: 3%;
+  display:block;
+  border: 13px solid; border-radius: 10%; border-color: rgb(189, 236, 182)
+}
+.respondemos{
+  font-family: 'Open Sans Condensed', sans-serif;
+color: rgb(0, 0, 255);
+font-size: 25px;
+}
+.pregunta{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  display:flex;
+  background-color: rgb(255,255, 255);
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  margin-left: 50%;
+  margin-top: 0%;
+  padding: 3%;
+  display:block;
+  border: 13px solid; border-radius: 10%; border-color: rgb(189, 236, 182)
+}
+.volver{
+font-family: 'Open Sans Condensed', sans-serif;
+display: flex;
+justify-content: flex-end;
+}
+footer{
+display: flex;
+height: 30vh;
+width: 100%;
+padding: 0%;
+background-color: rgb(163, 231, 214);
+justify-content: space-around;
+padding-top: 5%;
 }
 .mapa{
-text-align: center;
-display: flex;
-justify-content:flex-flex-start;
-margin:5%;
-padding: 0%;
+  display:block;
+margin-bottom: auto;
+}
+.link{
+  width: 120px;
+  display:flex;
+  text-align: center;
+  margin-left: 92%;
+  justify-content: flex-end;
+  color: rgb(0, 0, 255);
+  font-style: oblique;
+  background-color: rgb(255,255,255);
+  border-color: rgb(0, 0, 150);
 }
 
 /*media queries*/
 
 @media only screen and (max-width:800px)
  {
-.h3{
+h3{
   display: none;}
+h4{
+  display: none;
+}
 .mapa {
-  display:none;
+  display: none;
+}
+.pacientes{
+display: none;
+}
+.pregunta{
+  display: none;
 }

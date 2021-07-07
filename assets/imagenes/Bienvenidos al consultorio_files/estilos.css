@@ -1,0 +1,150 @@
+#{box-sizing: border-box;
+}
+
+header{background-color: rgb(0, 50, 255);
+weight:50px
+display: block;
+justify-content: center;
+align-items: left;
+margin-left: auto;
+margin-right: auto;
+text-align:inherit;
+}
+
+body{
+
+  margin-left: auto;
+  margin-right: auto;
+  margin:1%;
+  padding: 0%;
+  background-color: rgb(162, 202, 223);
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+logo{
+height: 30px;
+width: 20%;
+}
+.h2:hover {filter: opacity(.1);}
+.h2{
+  text-align: center;
+display: inline-block;
+    text-decoration-style: solid;
+  font-style:oblique;
+    }
+
+h3{
+  justify-content: center;
+  text-align: center;
+  text-decoration-style: solid;
+  font-style:oblique;
+    }
+.h4:hover {filter: opacity(.5);}
+.h4{
+text-align: center;
+display: inline-block;
+text-decoration-style: solid;
+font-style:oblique;}
+.h5:hover {filter: opacity(.5);}
+.h5{
+text-align: center;
+display: inline-block;
+text-decoration-style: solid;
+font-style:oblique;
+                }
+.foto{
+display: flex;
+justify-content: center;
+margin:inherit;
+padding: inherit;
+}
+  h5{
+    text-align: center;
+  }
+.tarjetas{
+margin-left: -25%;
+margin-right: 25%;
+display: flex;
+text-align:center;
+justify-content: space-between;
+
+}
+#galeria{
+text-align: center;
+justify-content: center; }
+.foto:hover.foto {-webkit-transform:scale(1);transform:scale(2);}
+.foto{overflow:hidden;}
+.empatia{
+width: auto;;
+height: auto;
+justify-content:center;
+text-align: center;}
+h3{
+justify-content: center;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+.nos conocemos{
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+h4{
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.li listado prestaciones{
+  color: rgb(255, 255, 255);}
+
+.prestaciones{
+  font-size: 20px;
+  font-style: italic;
+  background-color: rgb(81, 209, 246);
+  color: rgba(0, 0, 255, 0.5)
+}
+
+.contenedor tarjetas{
+  display: inline-flex;
+}
+.galeria{
+  width: 80%;
+  display: flex;
+}
+.imagen{
+width: 70vh;
+display: flex;
+}
+
+footer{
+height: 50vh;
+background-color: rgb(163, 231, 214);
+display: flex;
+justify-content: space-around;
+margin-top: 10vh;
+padding-top: 5%;
+}
+.mapa{
+  display:block;
+margin-bottom: auto;
+}
+.link{
+  width: 120px;
+  display:inline;
+  text-align: center;
+  justify-content: flex-end;
+  color: rgb(0, 0, 255);
+  font-style: oblique;
+  background-color: rgb(255,255,255);
+  border-color: rgb(0, 0, 150);
+}
+
+/*media queries*/
+
+@media only screen and (max-width:800px)
+ {
+h3{
+  display: none;}
+.mapa {
+  display:none;
+}
