@@ -9,7 +9,6 @@ align-items: left;
 margin-left: auto;
 text-align: justify;
 }
-
 body{
   font-family: 'Open Sans Condensed', sans-serif
   margin:0%;
@@ -44,9 +43,10 @@ font-style:oblique;
 h4:hover {filter: opacity(.5);}
 h4{
 font-family: 'Open Sans Condensed', sans-serif;
-text-align: center;
-display: inline-block;
 text-decoration-style: solid;
+font-size: 30px;
+text-align: center;
+color: white;
 }
 h5:hover {filter: opacity(.5);}
 h5{
@@ -98,14 +98,11 @@ color: rgb(255, 255, 255);
   text-align: center;
   color: rgb(255, 255, 255);
 }
-
 h4{
   font-family: 'Open Sans Condensed', sans-serif;
-margin-left: 15%;
   font-size: 30px;
-  justify-content: left;
-  text-align: left;
-  color: rgb(255, 255, 255);
+  text-align: center;
+  color: white;
 }
 h5{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -123,6 +120,7 @@ h6{
   color: rgb(255, 255, 255);
 }
 .parrafo{
+  font-size: 20px;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: justify;
   margin-left: 2%;
@@ -136,7 +134,7 @@ color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
 }
-.tituloprestaciones{
+.titulo{
 font-family: 'Open Sans Condensed', sans-serif;
 text-align: center;
 }
@@ -170,43 +168,53 @@ justify-content:flex-end;
 width: 70vh;
 display: flex;
 }
-.experiencias{
-  font-family: 'Open Sans Condensed', sans-serif;
+#experiencias{
+text-align: justify;
+font-size: 15px;
+font-family: 'Open Sans Condensed', sans-serif;
 color: rgb(0, 0, 255);
 }
+.pacientes{
+  text-align: justify;
+color: white;
+font-size: 25px;
+margin-left: 2%;
+margin-right: 2%;
+}
 .paciente{
-    font-family: 'Open Sans Condensed', sans-serif;
-  display:flex;
-  background-color: rgb(255,255, 255);
-  font-style: italic;
- color: rgb(0, 0, 0);
-  margin-right: 50%;
-  padding: 3%;
-  display:block;
-  border: 13px solid; border-radius: 10%; border-color: rgb(189, 236, 182)
+  display: flex;
+color: white;
+font-size: 25px;
+margin-left: 1%;
+margin-right: 1%;
+}
+.pregunta{
+  color: white;
+  font-size: 25px;
+  margin-left: 2%;
+  margin-right: 2%;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 .respondemos{
-  font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 color: rgb(0, 0, 255);
 font-size: 25px;
 }
-.pregunta{
+.h4{
+  display: flex;
+  justify-content: center;
+text-align: center;
+  font-size: 30px;
   font-family: 'Open Sans Condensed', sans-serif;
-  text-align: center;
-  display:flex;
-  background-color: rgb(255,255, 255);
-  font-style: italic;
-  color: rgb(0, 0, 0);
-  margin-left: 50%;
-  margin-top: 0%;
-  padding: 3%;
-  display:block;
-  border: 13px solid; border-radius: 10%; border-color: rgb(189, 236, 182)
+  color: rgb(255, 255, 255);
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .volver{
 font-family: 'Open Sans Condensed', sans-serif;
 display: flex;
 justify-content: flex-end;
+color: rgba(0, 0, 0, 3,2);
 }
 footer{
 display: flex;
@@ -232,9 +240,7 @@ margin-bottom: auto;
   background-color: rgb(255,255,255);
   border-color: rgb(0, 0, 150);
 }
-
 /*media queries*/
-
 @media only screen and (max-width:800px)
  {
 h3{
