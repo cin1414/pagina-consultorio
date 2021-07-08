@@ -11,8 +11,6 @@ text-align: justify;
 }
 body{
   font-family: 'Open Sans Condensed', sans-serif;
-  margin-left: 2%;
-  margin-left: 2%;
   padding: 0%;
   background-color: rgb(162, 202, 223);
   color: rgb(255, 255, 255);
@@ -24,6 +22,8 @@ width: 20%;
 }
 h2:hover {filter: opacity(.1);}
 h2{
+  margin-left: 2%;
+  margin-left: 2%;
 font-family: 'Open Sans Condensed', sans-serif;
 text-align: center;
 display: flex;
@@ -34,6 +34,8 @@ color: rgb(255, 255, 255);
 }
 
 h3{
+  margin-left: 2%;
+  margin-left: 2%;
 font-family: 'Open Sans Condensed', sans-serif;
 justify-content: center;
 text-align: center;
@@ -42,6 +44,8 @@ font-style:oblique;
     }
 h4:hover {filter: opacity(.5);}
 h4{
+margin-left: 2%;
+margin-left: 2%;
 font-family: 'Open Sans Condensed', sans-serif;
 text-decoration-style: solid;
 font-size: 30px;
@@ -50,6 +54,8 @@ color: white;
 }
 h5:hover {filter: opacity(.5);}
 h5{
+margin-left: 2%;
+margin-left: 2%;
 font-family: 'Open Sans Condensed', sans-serif;
 text-align: center;
 display: inline-block;
@@ -75,6 +81,8 @@ justify-content: space-between;
 .foto:hover.foto {-webkit-transform:scale(1);transform:scale(2);}
 .foto{overflow:hidden;}
 .empatia{
+margin-left: 2%;
+margin-left: 2%;
 font-family: 'Open Sans Condensed', sans-serif;
 width: auto;;
 height: auto;
@@ -87,24 +95,32 @@ display: flex;
 justify-content:flex-start;
 }
 h3{
+  margin-left: 2%;
+  margin-left: 2%;
 font-family: 'Open Sans Condensed', sans-serif;
 justify-content: center;
 text-align: center;
 color: rgb(255, 255, 255);
 }
 #nos conocemos{
+  margin-left: 6%;
+  margin-left: 4%;
   font-family: 'Open Sans Condensed', sans-serif;
   justify-content:space-around;
-  text-align: center;
+  text-align: justify;
   color: rgb(255, 255, 255);
 }
 h4{
+  margin-left: 2%;
+  margin-left: 2%;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
   text-align: center;
   color: white;
 }
 h5{
+  margin-left: 2%;
+  margin-left: 2%;
   font-family: 'Open Sans Condensed', sans-serif;
   display: flex;
   font-size: 30px;
@@ -113,6 +129,8 @@ h5{
   color: rgb(255, 255, 255);
 }
 h6{
+  margin-left: 2%;
+  margin-left: 2%;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
   justify-content: center;
@@ -120,10 +138,10 @@ h6{
   color: rgb(255, 255, 255);
 }
 .parrafo{
+  margin-left: 2%;
   font-size: 20px;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: justify;
-  margin-left: 2%;
   margin-right: 2%;
 }
 .medico paciente{
@@ -143,6 +161,8 @@ text-align: center;
   color: rgb(255, 255, 255);}
 
 .prestaciones{
+  margin-left: 2%;
+  margin-left: 2%;
   font-family: 'Open Sans Condensed', sans-serif;
   margin-left: 20px;
   text-align: left;
@@ -164,6 +184,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 display: flex;
 justify-content:flex-end;
 margin-right: 3%;
+color: rgb(255, 255, 255);
 }
 .imagen{
 width: 70vh;
@@ -176,6 +197,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 color: rgb(0, 0, 255);
 }
 .pacientes{
+
   text-align: justify;
 color: white;
 font-size: 25px;
@@ -202,6 +224,8 @@ color: rgb(0, 0, 255);
 font-size: 25px;
 }
 .h4{
+  margin-left: 2%;
+  margin-left: 2%;
   display: flex;
   justify-content: center;
 text-align: center;
@@ -219,7 +243,7 @@ color: rgba(0, 0, 0, 3,2);
 margin-right: 3%;
 }
 footer{
-margin-right: 0%;
+margin-left: 0%;
 display: flex;
 height: 30vh;
 width: 100%;
@@ -252,5 +276,11 @@ h4{
   display: none;
 }
 .mapa {
+  display: none;
+}
+.linkconsultorio{
+display: none;
+}
+.volver{
   display: none;
 }
